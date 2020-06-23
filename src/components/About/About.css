@@ -1,0 +1,50 @@
+#aboutMe{
+    background-color: rgba(241, 244, 247, 0.808);
+    margin: 0;
+    width: 100%;
+    margin-top: 6em;
+    padding-bottom: 8em;
+    
+  }
+  
+  #aboutMe h2{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 0.5em;
+  }
+  #aboutMe p {
+    padding-bottom: 1.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+  }
+  
+  #aboutMe h6 {
+    padding-bottom: 0.75em;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  #aboutMe .codingIcon {
+      max-width: 2em;
+      padding-bottom: 2em;
+  }
+
+  @media (max-width: 991px) {
+    #aboutMe p{
+      text-align: center;
+      padding-right: 2em;
+      padding-left: 2em;
+      margin-left: 3em;
+      margin-right: 3em;
+    }
+    #aboutMe h6{
+      text-align: center;
+    }
+    #aboutMeIcons {
+      justify-content: center;
+    }
+  }
+  
+  
+  

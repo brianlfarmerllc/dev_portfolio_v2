@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "image": "assets/weather.jpg",
+        "alt": "background image for weather app",
+        "site": "https://brianlfarmerllc.github.io/Weather-Dashboard/",
+        "name": "Weather Dashoard",
+        "icon": "https://img.icons8.com/ios/50/000000/cloud.png",
+        "type": "Browser Based App",
+        "github": "https://github.com/brianlfarmerllc/Weather-Dashboard"
+      }
+]
