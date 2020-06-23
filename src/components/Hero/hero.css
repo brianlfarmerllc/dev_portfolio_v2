@@ -1,0 +1,55 @@
+#heroRow {
+    margin-top: 5em;
+  }
+  #heroRow h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    margin-bottom: 0.5em;
+  }
+  #heroRow h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    margin-bottom: 1.5em;
+  }
+  
+  #introText {
+    padding-top: 5em;
+  }
+  
+  #brianTable {
+    max-width: 100%;
+    border-radius: 360px;
+  }
+  #portButton{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  
+  #cvButton {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  @media (max-width: 991px) {
+    #introText {
+      padding-top: 0em;
+    }
+  }
+
+  @media (max-width:767px){
+    #heroRow {
+      margin-top: 2em;
+    }
+    #introText {
+      text-align: center;
+    }
+    #buttonRow{
+      justify-content: center;
+    }
+    #heroRow h2 {
+      font-size: 28px;
+    }
+    #heroRow h4 {
+      font-size: 18px;
+    }
+  }
