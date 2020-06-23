@@ -1,0 +1,76 @@
+  #portfolioSection{
+    margin: 0;
+    width: 100%;
+    margin-top: 0em;
+    padding-bottom: 4em;
+    
+  }
+  
+  #portfolioSection h2{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 0.5em;
+  }
+  
+  #portfolioSection .codingIcon {
+    max-width: 2em;
+    padding-bottom: 1.5em;
+  }
+  
+  #portfolioSection .portfolioIcon {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 20%;
+  }
+  
+  #portfolioSection .tile{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    margin-right:2em;
+    margin-left:2em;
+    border-radius: 1em;
+  }
+  
+  #portfolioSection .tile img {
+   border-top-left-radius: 1em;
+   border-top-right-radius: 1em;
+  }
+  
+  #portfolioSection .tile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 12px 40px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  #portfolioSection .box {
+    padding-top: 1em;
+  }
+  #portfolioSection .tileIcon {
+    width: 15%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+  
+  #portfolioSection h5{
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  
+  #portfolioSection p{
+    font-family: 'Source Sans Pro', sans-serif; 
+  }
+  
+  #portfolioSection h5:hover {
+    color: dodgerblue
+  }
+  
+  #portfolioSection a {
+    text-decoration: none;
+  }
+  
+  #portfolioSection a:hover {
+    text-decoration: none;
+  } 
