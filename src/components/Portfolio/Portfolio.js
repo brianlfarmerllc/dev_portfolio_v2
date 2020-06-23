@@ -1,5 +1,6 @@
 import React from "react"
 import "./Portfolio.css"
+import PortfolioTiles from "../PortfolioTiles/PortfolioTiles"
 
 function Portfolio() {
     return (
@@ -26,9 +27,7 @@ function Portfolio() {
             <div className="row justify-content-center text-center ml-0 mr-0 ml-xl-2 mr-xl-2">
                 {/* Force next columns to break to new line */}
                 <div className="w-100 d-none d-md-block"></div>
-
-                {/* tiles will go here */}
-
+                <PortfolioTiles/>
             </div>
         </section>
     )
