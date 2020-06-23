@@ -1,1 +1,17 @@
+.button {
+  background-color: dodgerblue;
+  color: white;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 0.75em;
+}
 
+.button:hover {
+  color: white;
+  font-size: large;
+}
+
+.codingIcon{
+  max-width: 2em;
+  padding-bottom: 2em;
+}
