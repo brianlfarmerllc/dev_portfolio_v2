@@ -1,0 +1,24 @@
+#contactSection{
+    background-color: rgba(241, 244, 247, 0.808);
+    margin: 0;
+    width: 100%;
+    margin-top: 6em;
+    padding-bottom: 8em;
+  }
+  
+  #contactSection h2{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 0.5em;
+  }
+  
+  #contactSection .codingIcon {
+    max-width: 2em;
+    padding-bottom: 2em;
+  }
+  
+  #contactSection .button {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
