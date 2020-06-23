@@ -19,7 +19,7 @@ function Portfolio() {
                 {/* line of text above the icons */}
                 <h3 className="col-lg-12" style={{
                     textAlign: "center",
-                    fontFamily: "'Merriweather', serif ;"
+                    fontFamily: "'Merriweather', serif"
                 }}>
                     Recent Projects and Apps
                 </h3>

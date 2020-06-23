@@ -19,21 +19,21 @@ function About() {
           <p>I am a highly energetic self-starter, recognized for sound judgment, time management, and attention to
             detail, with a "look beyond obstacles" approach to problem solving. I work well under pressure and I am not
             easily discouraged. I am self-motivated and I’m always working with a goal in mind. </p>
-          <h6><span style={{fontWeight: "bold;font-size: 22px;"}}>Full Name:</span>&nbsp;&nbsp;&nbsp;&nbsp;Brian Farmer
+          <h6><span style={{fontWeight: "bold", fontSize: "22px"}}>Full Name:</span>&nbsp;&nbsp;&nbsp;&nbsp;Brian Farmer
           </h6>
-          <h6><span style={{fontWeight: "bold;font-size: 22px;"}}>Location:</span>&nbsp;&nbsp;&nbsp;&nbsp;Dallas Ft. Worth
+          <h6><span style={{fontWeight: "bold", fontSize: "22px"}}>Location:</span>&nbsp;&nbsp;&nbsp;&nbsp;Dallas Ft. Worth
             Greater Metroplex</h6>
-          <h6><span style={{fontWeight: "bold;font-size: 22px;"}}>Phone Number:</span>&nbsp;&nbsp;&nbsp;&nbsp;214-843-3748
+          <h6><span style={{fontWeight: "bold", fontSize: "22px"}}>Phone Number:</span>&nbsp;&nbsp;&nbsp;&nbsp;214-843-3748
           </h6>
           <h6><span
-              style={{fontWeight: "bold;font-size: 22px;"}}>Email:</span>&nbsp;&nbsp;&nbsp;&nbsp;BrianLFarmerLLC@gmail.com
+              style={{fontWeight: "bold", fontSize: "22px"}}>Email:</span>&nbsp;&nbsp;&nbsp;&nbsp;BrianLFarmerLLC@gmail.com
           </h6>
         </div>
         {/* column on the richt side of about me section with icons */}
         <div className="col-8 col-lg-5 col-xl-4 mt-5 mt-lg-0 pl-0 ml-0 pl-lg-5 ml-lg-5" id="aboutMeIcons">
           <div className="row justify-content-center">
             {/* line of text above the icons */}
-            <h3 className="col-12 col-lg-9 mb-5" style={{textAlign:"center;"}}>Skilled With The Use Of:</h3>
+            <h3 className="col-12 col-lg-9 mb-5" style={{textAlign:"center"}}>Skilled With The Use Of:</h3>
 
             {/* Force next columns to break to new line */}
             <div className="w-100 d-none d-md-block"></div>
