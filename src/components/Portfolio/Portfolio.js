@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React,{useEffect, useState, useReducer} from "react"
+import React, {useState} from "react"
 import portfolio from "../../db/portfolio.json"
+import portfoliocopy from "../../db/portfolio copy.json"
 import "./Portfolio.css"
 import PortfolioTiles from "../PortfolioTiles/PortfolioTiles"
 
@@ -11,12 +12,18 @@ function Portfolio() {
         event.preventDefault()
         const name = event.target.name
         switch (name) {
-            case "":
-                
+            case "Full Stack":
+                setPortfolioState(portfoliocopy[0].fullStack)
                 break;
-        
+            case "Browser Apps":
+                setPortfolioState(portfoliocopy[1].browserApps)
+                break;
+            case "CLI Apps":
+                setPortfolioState(portfoliocopy[2].cliApps)
+                break;
+
             default:
-                break;
+               return
         }
     }
 
@@ -36,21 +43,21 @@ function Portfolio() {
                 {/* line of text above the icons */}
                 <ul className="nav justify-content-md-end justify-content-center">
                     <span>var portfolio = [</span>
-                    <li> <a 
-                    className="list-item" 
-                    href="#"
-                    name="Full Stack"
-                    onClick={handleClick}>Full Stack</a> </li>
-                    <li> <a 
-                    className="list-item" 
-                    href="#"
-                    name="Browser Apps"
-                    onClick={handleClick}>Browser Apps</a> </li>
-                    <li> <a 
-                    className="list-item" 
-                    href="#"
-                    name="CLI Apps"
-                    onClick={handleClick}>CLI Apps</a> </li>
+                    <li> <a
+                        className="list-item"
+                        href="#"
+                        name="Full Stack"
+                        onClick={handleClick}>Full Stack</a> </li>
+                    <li> <a
+                        className="list-item"
+                        href="#"
+                        name="Browser Apps"
+                        onClick={handleClick}>Browser Apps</a> </li>
+                    <li> <a
+                        className="list-item"
+                        href="#"
+                        name="CLI Apps"
+                        onClick={handleClick}>CLI Apps</a> </li>
                     <span >]</span>
                 </ul>
             </div>
@@ -58,16 +65,16 @@ function Portfolio() {
                 {/* Force next columns to break to new line */}
                 <div className="w-100 d-none d-md-block"></div>
                 {portfolioState.map(item => (
-                <PortfolioTiles 
-                key={item.name}
-                name={item.name}
-                image={item.image}
-                imageAlt={item.imageAlt}
-                site={item.site} 
-                icon={item.icon}
-                iconAlt={item.iconAlt}
-                type={item.type}
-                github={item.github}/>
+                    <PortfolioTiles
+                        key={item.name}
+                        name={item.name}
+                        image={item.image}
+                        imageAlt={item.imageAlt}
+                        site={item.site}
+                        icon={item.icon}
+                        iconAlt={item.iconAlt}
+                        type={item.type}
+                        github={item.github} />
                 ))}
             </div>
         </section>

@@ -1,5 +1,5 @@
-import React,{useEffect, useState, useReducer} from "react"
-import portfolio from "../../db/portfolio.json"
+import React from "react"
+
 
 
 

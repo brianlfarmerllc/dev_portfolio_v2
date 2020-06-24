@@ -24,7 +24,7 @@
     ]
   },
   {
-    "browser": [
+    "browserApps": [
       {
         "image": "assets/weather.jpg",
         "imageAlt": "background for weather app",
