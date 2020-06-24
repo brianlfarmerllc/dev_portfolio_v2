@@ -17,17 +17,18 @@ function Portfolio() {
 
             <div className="row justify-content-center ml-1 mr-1 ml-m-0 mr-m-0">
                 {/* line of text above the icons */}
-                <h3 className="col-lg-12" style={{
-                    textAlign: "center",
-                    fontFamily: "'Merriweather', serif"
-                }}>
-                    Recent Projects and Apps
-                </h3>
+                <ul className="nav justify-content-md-end justify-content-center">
+                    <span style={{paddingRight: "1em"}}>var navBar = [</span>
+                    <li> <a className="list-item" href="#aboutMe">About Me</a> </li>
+                    <li> <a className="list-item" href="#portfolioSection">My Portfolio</a> </li>
+                    <li> <a className="list-item" href="#contactSection">Contact Me</a> </li>
+                    <span style={{paddingLeft: "1em"}}>]</span>
+                </ul>
             </div>
             <div className="row justify-content-center text-center ml-0 mr-0 ml-xl-2 mr-xl-2">
                 {/* Force next columns to break to new line */}
                 <div className="w-100 d-none d-md-block"></div>
-                <PortfolioTiles/>
+                <PortfolioTiles />
             </div>
         </section>
     )
