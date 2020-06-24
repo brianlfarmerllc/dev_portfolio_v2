@@ -2,6 +2,9 @@
 import React from "react"
 import "./Footer.css"
 
+let today = new Date()
+let year = today.getFullYear()
+
 function Footer(){
     return (
         <footer className="site-footer">
@@ -14,7 +17,6 @@ function Footer(){
                 in the site.
               </p>
             </div>
-    
             <div className="col-xs-6 col-md-3">
               <h6>Page Links</h6>
               <ul className="footer-links">
@@ -24,7 +26,6 @@ function Footer(){
                 <li><a href="#contactSection">Contact Me</a></li>
               </ul>
             </div>
-    
             <div className="col-xs-6 col-md-3">
               <h6>Quick Links</h6>
               <ul className="footer-links">
@@ -38,7 +39,7 @@ function Footer(){
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-sm-12 col-xs-12">
-              <p className="copyright-text">Copyright &copy; <span id="copyright"></span> All Rights Reserved by
+              <p className="copyright-text">Copyright &copy; <span id="copyright">2020-{year}</span> All Rights Reserved by
                 <a href="https://github.com/brianlfarmerllc" target="blank">BrianLFarmerLLC</a>
               </p>
             </div>
