@@ -1,12 +1,24 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React,{useEffect, useState, useReducer} from "react"
 import portfolio from "../../db/portfolio.json"
 import "./Portfolio.css"
 import PortfolioTiles from "../PortfolioTiles/PortfolioTiles"
 
 function Portfolio() {
-    const [portfolioState, setPortfolioState] = useState([]);
+    const [portfolioState, setPortfolioState] = useState(portfolio);
 
-
+    const handleClick = event => {
+        event.preventDefault()
+        const name = event.target.name
+        switch (name) {
+            case "":
+                
+                break;
+        
+            default:
+                break;
+        }
+    }
 
     return (
         // section for portfolio
@@ -24,16 +36,28 @@ function Portfolio() {
                 {/* line of text above the icons */}
                 <ul className="nav justify-content-md-end justify-content-center">
                     <span>var portfolio = [</span>
-                    <li> <a className="list-item" href="#">Full Stack</a> </li>
-                    <li> <a className="list-item" href="#">Browser Apps</a> </li>
-                    <li> <a className="list-item" href="#">CLI Apps</a> </li>
+                    <li> <a 
+                    className="list-item" 
+                    href="#"
+                    name="Full Stack"
+                    onClick={handleClick}>Full Stack</a> </li>
+                    <li> <a 
+                    className="list-item" 
+                    href="#"
+                    name="Browser Apps"
+                    onClick={handleClick}>Browser Apps</a> </li>
+                    <li> <a 
+                    className="list-item" 
+                    href="#"
+                    name="CLI Apps"
+                    onClick={handleClick}>CLI Apps</a> </li>
                     <span >]</span>
                 </ul>
             </div>
             <div className="row justify-content-center text-center ml-0 mr-0 ml-xl-2 mr-xl-2">
                 {/* Force next columns to break to new line */}
                 <div className="w-100 d-none d-md-block"></div>
-                {portfolio.map(item => (
+                {portfolioState.map(item => (
                 <PortfolioTiles 
                 key={item.name}
                 name={item.name}
