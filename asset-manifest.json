@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/No_Express_React_Portfolio/static/css/main.c1d4f828.chunk.css",
+    "main.js": "/No_Express_React_Portfolio/static/js/main.af0bb322.chunk.js",
+    "main.js.map": "/No_Express_React_Portfolio/static/js/main.af0bb322.chunk.js.map",
+    "runtime-main.js": "/No_Express_React_Portfolio/static/js/runtime-main.b63d8624.js",
+    "runtime-main.js.map": "/No_Express_React_Portfolio/static/js/runtime-main.b63d8624.js.map",
+    "static/js/2.def5824f.chunk.js": "/No_Express_React_Portfolio/static/js/2.def5824f.chunk.js",
+    "static/js/2.def5824f.chunk.js.map": "/No_Express_React_Portfolio/static/js/2.def5824f.chunk.js.map",
+    "index.html": "/No_Express_React_Portfolio/index.html",
+    "precache-manifest.f626b8f6207cfa64bff279ef5ee58014.js": "/No_Express_React_Portfolio/precache-manifest.f626b8f6207cfa64bff279ef5ee58014.js",
+    "service-worker.js": "/No_Express_React_Portfolio/service-worker.js",
+    "static/css/main.c1d4f828.chunk.css.map": "/No_Express_React_Portfolio/static/css/main.c1d4f828.chunk.css.map",
+    "static/js/2.def5824f.chunk.js.LICENSE.txt": "/No_Express_React_Portfolio/static/js/2.def5824f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b63d8624.js",
+    "static/js/2.def5824f.chunk.js",
+    "static/css/main.c1d4f828.chunk.css",
+    "static/js/main.af0bb322.chunk.js"
+  ]
+}
