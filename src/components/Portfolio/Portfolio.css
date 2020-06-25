@@ -92,3 +92,10 @@
   #portfolioSection a:hover {
     text-decoration: none;
   } 
+
+  @media (max-width:767px){
+    #portfolioSection ul span
+    {
+      display: none
+    }
+  }
