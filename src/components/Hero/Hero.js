@@ -16,13 +16,15 @@ function Hero() {
                         <div className=" col-6">
                             <a className="button" id="portButton" href="#portfolioSection"
                                 role="button" style={{ textDecoration: "none" }}>
-                                MyPortfolio</a>
+                                My Portfolio</a>
                         </div>
                         {/* button link to portfolio currently disabled until I create a resume  */}
-                        {/* <div className=" col-6 col-sm-5 col-md-6 col-lg-6 col-xl-5">
-                         <a className="button" id="cvButton" href="#" role="button"
-                        style="text-decoration: none; display: none;">Download My CV </a>
-                        </div> */}
+                        <div className=" col-6 col-sm-5 col-md-6">
+                         <a className="button" id="cvButton" 
+                         href="https://drive.google.com/file/d/1BnxNVCKCPpW6cmgxNlaqSUpb9fYFb1pb/view?usp=sharing" role="button"
+                         style={{ textDecoration: "none" }}
+                         target="blank">Download My CV </a>
+                        </div>
                     </div>
                 </div>
                 {/* column for image in hero section */}
