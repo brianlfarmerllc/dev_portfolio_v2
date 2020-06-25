@@ -48,7 +48,7 @@ function Footer(){
               <ul className="social-icons">
                 <li><a className="github" href="https://www.github.com/brianlfarmerllc/" target="blank"><i
                       className="fa fa-github"></i></a></li>
-                <li><a className="linkedin" href="https://www.linkedin.com/in/brian-farmer-113a2777" target="blank"><i
+                <li><a className="linkedin" href="https://www.linkedin.com/in/BrianLFarmerLLC" target="blank"><i
                       className="fa fa-linkedin"></i></a></li>
               </ul>
             </div>
@@ -57,5 +57,5 @@ function Footer(){
       </footer>
     )
 }
-
+    
 export default Footer
