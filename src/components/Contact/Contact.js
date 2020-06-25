@@ -9,7 +9,7 @@ function Contact() {
           <h2 style={{fontFamily: "'Merriweather', serif"}}>Contact Me</h2>
         </div>
         <div className="w-100"></div>
-        <img alt="icon brackets" className="codingIcon" src="https://img.icons8.com/ios/50/000000/source-code.png" />
+        <img alt="icon brackets" className="codingIcon" src="./assets/icons/laptop.png" />
       </div>
         {/* empty h4 to generate thank you after email submit */}
       {/* eslint-disable-next-line jsx-a11y/heading-has-content */}

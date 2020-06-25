@@ -11,7 +11,7 @@ function About() {
           <h2 style={{ fontFamily: "Merriweather, serif" }}>About Me</h2>
         </div>
         <div className="w-100"></div>
-        <img alt="icon brackets" className="codingIcon" src="https://img.icons8.com/ios/50/000000/source-code.png" />
+        <img alt="icon brackets" className="codingIcon" src="./assets/icons/laptop.png" />
       </div>
       <div className="row justify-content-center">
         {/* column on the left side of the about me section with text content of about me section */}
@@ -38,21 +38,22 @@ function About() {
             {/* Force next columns to break to new line */}
             <div className="w-100 d-none d-md-block"></div>
             {/* top row of icons*/}
-            <img src="https://img.icons8.com/ios/100/000000/html-5.png" alt="icon for html5" className="col-3"/>
-            <img src="https://img.icons8.com/carbon-copy/100/000000/4-c.png" alt="icon for bootstrap 4" className="col-3"/>
-            <img src="https://img.icons8.com/ios-filled/100/000000/css.png" alt="icon for css" className="col-3"/>
-            <img src="https://img.icons8.com/ios/100/000000/javascript-logo.png" alt="icon for javascript"
+            <img src="./assets/icons/html5.png" alt="icon for html5" className="col-3"/>
+            <img src="./assets/icons/bootstrap.png" alt="icon for bootstrap 4" className="col-3"/>
+            <img src="./assets/icons/css.png" alt="icon for css" className="col-3"/>
+            <img src="./assets/icons/javascript.png" alt="icon for javascript"
               className="col-3"/>
 
             {/* Force next columns to break to new line */}
             <div className="w-100 d-none d-md-block"></div>
             {/* bottom row of icons */}
-            <img src="https://img.icons8.com/windows/96/000000/nodejs.png" alt="icon for node" className="col-3 mt-5"/>
-            <img src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png" alt="icon for mysql"
+            <img src="./assets/icons/react.png" alt="icon for react.js" className="col-3 mt-5"/>
+            <img src="./assets/icons/nodejs.png" alt="icon for node" className="col-3 mt-5"/>
+            <img src="./assets/icons/mysql.png" alt="icon for mysql"
               className="col-3 mt-5"/>
-            <img src="https://img.icons8.com/carbon-copy/100/000000/adobe-photoshop.png" alt="icon for photoshop"
+            <img src="./assets/icons/mongodb.png" alt="icon for mongo.db"
               className="col-3 mt-5"/>
-            <img src="https://img.icons8.com/ios/100/000000/design.png" alt="icon for web design" className="col-3 mt-5"/>
+            
           </div>
         </div>
       </div>
