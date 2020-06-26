@@ -1,6 +1,6 @@
 [
   {
-    "image": "assets/weather.jpg",
+    "image": "weather",
     "imageAlt": "background for weather app",
     "site": "https://brianlfarmerllc.github.io/Weather-Dashboard/",
     "name": "Weather Dashoard",
@@ -10,7 +10,7 @@
     "github": "https://github.com/brianlfarmerllc/Weather-Dashboard"
   },
   {
-    "image": "assets/theoffice.jpg",
+    "image": "theoffice",
     "imageAlt": "background for the office",
     "site": "https://brianlfarmerllc.github.io/Code-Quiz/",
     "name": "The Office Quiz Game",
@@ -20,7 +20,7 @@
     "github": "https://github.com/brianlfarmerllc/Code-Quiz"
   },
   {
-    "image": "assets/dayplanner.jpg",
+    "image": "dayplanner",
     "imageAlt": "background for day planner",
     "site": "https://brianlfarmerllc.github.io/Day-Planner/",
     "name": "Day Planner Application",
@@ -30,7 +30,7 @@
     "github": "https://github.com/brianlfarmerllc/Day-Planner"
   },
   {
-    "image": "assets/password.jpg",
+    "image": "password",
     "imageAlt": "background for Password Generator",
     "site": "https://brianlfarmerllc.github.io/Password-Generator/",
     "name": "Password Generator",
@@ -40,7 +40,7 @@
     "github": "https://github.com/brianlfarmerllc/Password-Generator"
   },
   {
-    "image": "assets/burger.jpg",
+    "image": "burger",
     "imageAlt": "background for eat-da-burger",
     "site": "https://eat-da-burger-brianlfarmerllc.herokuapp.com/",
     "name": "Eat-Da-Burger Application",
@@ -50,7 +50,7 @@
     "github": "https://github.com/brianlfarmerllc/Handelbars_Eat_Da_Burger"
   },
   {
-    "image": "assets/notebook.jpg",
+    "image": "notebook",
     "imageAlt": "background for notetaker",
     "site": "https://note-taker-brianlfarmerllc.herokuapp.com/",
     "name": "Note Taker Application",
@@ -60,7 +60,7 @@
     "github": "https://github.com/brianlfarmerllc/Note_Taker"
   },
   {
-    "image": "assets/employee_management.jpg",
+    "image": "employee_management",
     "imageAlt": "background for employee_management",
     "name": "Employee CMS Application",
     "icon": "https://img.icons8.com/wired/64/000000/manager.png",
@@ -69,7 +69,7 @@
     "github": "https://github.com/brianlfarmerllc/Employee_Management_System"
   },
   {
-    "image": "assets/readme.png",
+    "image": "readme",
     "imageAlt": "background for good read me Generator",
     "name": "Read Me Generator",
     "icon": "https://img.icons8.com/pastel-glyph/64/000000/file.png",

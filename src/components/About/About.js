@@ -1,5 +1,14 @@
 import React from "react"
 import "./About.css"
+import laptop from "../../assets/icons/laptop.png"
+import html from "../../assets/icons/html5.png"
+import boot from "../../assets/icons/bootstrap.png"
+import css from "../../assets/icons/css.png"
+import js from "../../assets/icons/javascript.png"
+import react from "../../assets/icons/react.png"
+import node from "../../assets/icons/nodejs.png"
+import mysql from "../../assets/icons/mysql.png"
+import mongo from "../../assets/icons/mongodb.png"
 
 function About() {
     
@@ -11,7 +20,7 @@ function About() {
           <h2 style={{ fontFamily: "Merriweather, serif" }}>About Me</h2>
         </div>
         <div className="w-100"></div>
-        <img alt="icon brackets" className="codingIcon" src="./assets/icons/laptop.png" />
+        <img alt="icon brackets" className="codingIcon" src={laptop} />
       </div>
       <div className="row justify-content-center">
         {/* column on the left side of the about me section with text content of about me section */}
@@ -38,20 +47,20 @@ function About() {
             {/* Force next columns to break to new line */}
             <div className="w-100 d-none d-md-block"></div>
             {/* top row of icons*/}
-            <img src="./assets/icons/html5.png" alt="icon for html5" className="col-3"/>
-            <img src="./assets/icons/bootstrap.png" alt="icon for bootstrap 4" className="col-3"/>
-            <img src="./assets/icons/css.png" alt="icon for css" className="col-3"/>
-            <img src="./assets/icons/javascript.png" alt="icon for javascript"
+            <img src={html} alt="icon for html5" className="col-3"/>
+            <img src={boot} alt="icon for bootstrap 4" className="col-3"/>
+            <img src={css} alt="icon for css" className="col-3"/>
+            <img src={js} alt="icon for javascript"
               className="col-3"/>
 
             {/* Force next columns to break to new line */}
             <div className="w-100 d-none d-md-block"></div>
             {/* bottom row of icons */}
-            <img src="./assets/icons/react.png" alt="icon for react.js" className="col-3 mt-5"/>
-            <img src="./assets/icons/nodejs.png" alt="icon for node" className="col-3 mt-5"/>
-            <img src="./assets/icons/mysql.png" alt="icon for mysql"
+            <img src={react} alt="icon for react.js" className="col-3 mt-5"/>
+            <img src={node} alt="icon for node" className="col-3 mt-5"/>
+            <img src={mysql} alt="icon for mysql"
               className="col-3 mt-5"/>
-            <img src="./assets/icons/mongodb.png" alt="icon for mongo.db"
+            <img src={mongo} alt="icon for mongo.db"
               className="col-3 mt-5"/>
             
           </div>

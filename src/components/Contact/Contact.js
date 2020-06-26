@@ -1,5 +1,6 @@
 import React from "react"
 import "./Contact.css"
+import laptop from "../../assets/icons/laptop.png"
 
 function Contact() {
  return (
@@ -9,7 +10,7 @@ function Contact() {
           <h2 style={{fontFamily: "'Merriweather', serif"}}>Contact Me</h2>
         </div>
         <div className="w-100"></div>
-        <img alt="icon brackets" className="codingIcon" src="./assets/icons/laptop.png" />
+        <img alt="icon brackets" className="codingIcon" src={laptop} />
       </div>
         {/* empty h4 to generate thank you after email submit */}
       {/* eslint-disable-next-line jsx-a11y/heading-has-content */}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css"
+import biopic from "../../assets/biophoto1.jpeg"
 
 function Hero() {
     return (
@@ -29,7 +30,7 @@ function Hero() {
                 </div>
                 {/* column for image in hero section */}
                 <div className="col-8 col-md-5 mt-5 mt-md-0" id="mainPhoto">
-                    <img src="/assets/biophoto1.jpeg" 
+                    <img src={biopic} 
                     alt="Brian sitting at table outside with computer" 
                     id="brianTable" />
                 </div>

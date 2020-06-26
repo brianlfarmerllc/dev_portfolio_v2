@@ -4,6 +4,7 @@ import portfolio from "../../db/portfolio.json"
 import portfoliocopy from "../../db/portfolio copy.json"
 import "./Portfolio.css"
 import PortfolioTiles from "../PortfolioTiles/PortfolioTiles"
+import dev from "../../assets/icons/developer.png"
 
 function Portfolio() {
     const [portfolioState, setPortfolioState] = useState(portfolio);
@@ -36,7 +37,7 @@ function Portfolio() {
                 </div>
                 <div className="w-100"></div>
                 <img alt="icon brackets" className="codingIcon"
-                    src="./assets/icons/developer.png" />
+                    src={dev} />
             </div>
 
             <div className="row justify-content-center ml-1 mr-1 ml-m-0 mr-m-0">
