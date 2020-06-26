@@ -6,7 +6,9 @@
   [![GitHub URL](https://img.shields.io/badge/GitPages-URL-dodgerblue.svg)](https://brianlfarmerllc.github.io/No_Express_React_Portfolio/)
   ## Description
 
-  Add Description
+  This site my personal Bio/Portfolio - It is an ever-changing work in progress as I continue to work towards developing my technical skills.
+
+  The page is built with React.js. Currently the site consists of a single page layout with divided into 4 main sections. Above the fold, About Me, Portfolio, and Contact. A navigation bar anchors to the corresponding sections of the page.  
 
   ## Table of Contents
   
@@ -19,17 +21,17 @@
   
   ## Installation
 
-  Add instructions
+  Clone repository to your local machine then run npm install. To run on local server, "npm start" and vist site at localhost:3000. Feel free to use the site as a template to build your own portfolio! 
 
   ## Test
 
-  Add tests
+  No test
 
   ## Usage
 
   The following image demonstrates the application functionality:
 
-  ![Add Description !!!!!!](Add Path)
+  ![Add Description !!!!!!](./public/bioPage.gif)
 
   ## Technologies
 
