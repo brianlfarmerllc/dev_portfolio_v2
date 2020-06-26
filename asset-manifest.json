@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/static/css/main.4528dbf2.chunk.css",
-    "main.js": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/static/js/main.0e4314f8.chunk.js",
-    "main.js.map": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/static/js/main.0e4314f8.chunk.js.map",
-    "runtime-main.js": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/static/js/runtime-main.be9fce35.js",
-    "runtime-main.js.map": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/static/js/runtime-main.be9fce35.js.map",
-    "static/js/2.28ffda63.chunk.js": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/static/js/2.28ffda63.chunk.js",
-    "static/js/2.28ffda63.chunk.js.map": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/static/js/2.28ffda63.chunk.js.map",
-    "index.html": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/index.html",
-    "precache-manifest.ecdfddcae3f2e51a7b2de1fa4cb2ac2d.js": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/precache-manifest.ecdfddcae3f2e51a7b2de1fa4cb2ac2d.js",
-    "service-worker.js": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/service-worker.js",
-    "static/css/main.4528dbf2.chunk.css.map": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/static/css/main.4528dbf2.chunk.css.map",
-    "static/js/2.28ffda63.chunk.js.LICENSE.txt": "//brianlfarmerllc.github.io/No_Express_React_Portfolio/static/js/2.28ffda63.chunk.js.LICENSE.txt"
+    "main.css": "/No_Express_React_Portfolio/static/css/main.4528dbf2.chunk.css",
+    "main.js": "/No_Express_React_Portfolio/static/js/main.3eb1b421.chunk.js",
+    "main.js.map": "/No_Express_React_Portfolio/static/js/main.3eb1b421.chunk.js.map",
+    "runtime-main.js": "/No_Express_React_Portfolio/static/js/runtime-main.b63d8624.js",
+    "runtime-main.js.map": "/No_Express_React_Portfolio/static/js/runtime-main.b63d8624.js.map",
+    "static/js/2.28ffda63.chunk.js": "/No_Express_React_Portfolio/static/js/2.28ffda63.chunk.js",
+    "static/js/2.28ffda63.chunk.js.map": "/No_Express_React_Portfolio/static/js/2.28ffda63.chunk.js.map",
+    "index.html": "/No_Express_React_Portfolio/index.html",
+    "precache-manifest.654c551407d6930a426e73d3a239e137.js": "/No_Express_React_Portfolio/precache-manifest.654c551407d6930a426e73d3a239e137.js",
+    "service-worker.js": "/No_Express_React_Portfolio/service-worker.js",
+    "static/css/main.4528dbf2.chunk.css.map": "/No_Express_React_Portfolio/static/css/main.4528dbf2.chunk.css.map",
+    "static/js/2.28ffda63.chunk.js.LICENSE.txt": "/No_Express_React_Portfolio/static/js/2.28ffda63.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.be9fce35.js",
+    "static/js/runtime-main.b63d8624.js",
     "static/js/2.28ffda63.chunk.js",
     "static/css/main.4528dbf2.chunk.css",
-    "static/js/main.0e4314f8.chunk.js"
+    "static/js/main.3eb1b421.chunk.js"
   ]
 }
