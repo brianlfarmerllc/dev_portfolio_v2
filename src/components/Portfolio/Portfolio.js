@@ -1,18 +1,23 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {useState} from "react"
+import React, { useState } from "react"
 import portfoliocopy from "../../db/portfolio copy.json"
+import portfolio from "../../db/portfolio.json"
 import "./Portfolio.css"
 import PortfolioTiles from "../PortfolioTiles/PortfolioTiles"
 import dev from "../../assets/icons/developer.png"
 
 function Portfolio() {
-    const [portfolioState, setPortfolioState] = useState(portfoliocopy[0].fullStack);
-    const [currentItemState, setCurrentItemState] = useState("Full Stack");
+    const [portfolioState, setPortfolioState] = useState(portfoliocopy[3].reactApps);
+    const [currentItemState, setCurrentItemState] = useState("React Apps");
 
     const handleClick = event => {
         event.preventDefault()
         const name = event.target.name
         switch (name) {
+            case "React Apps":
+                setPortfolioState(portfoliocopy[3].reactApps)
+                setCurrentItemState("Full Stack")
+                break;
             case "Full Stack":
                 setPortfolioState(portfoliocopy[0].fullStack)
                 setCurrentItemState("Full Stack")
@@ -27,7 +32,7 @@ function Portfolio() {
                 break;
 
             default:
-               return
+                return
         }
     }
 
@@ -50,20 +55,26 @@ function Portfolio() {
                     <li> <a
                         className="list-item"
                         href="#"
+                        name="React Apps"
+                        style={{ color: currentItemState === "React Apps" ? "dodgerblue" : "black" }}
+                        onClick={handleClick}>React Apps</a> </li>
+                    <li> <a
+                        className="list-item"
+                        href="#"
                         name="Full Stack"
-                        style={{color: currentItemState === "Full Stack" ? "dodgerblue" : "black"}}
+                        style={{ color: currentItemState === "Full Stack" ? "dodgerblue" : "black" }}
                         onClick={handleClick}>Full Stack</a> </li>
                     <li> <a
                         className="list-item"
                         href="#"
                         name="Browser Apps"
-                        style={{color: currentItemState === "Browser Apps" ? "dodgerblue" : "black"}}
+                        style={{ color: currentItemState === "Browser Apps" ? "dodgerblue" : "black" }}
                         onClick={handleClick}>Browser Apps</a> </li>
                     <li> <a
                         className="list-item"
                         href="#"
                         name="CLI Apps"
-                        style={{color: currentItemState === "CLI Apps" ? "dodgerblue" : "black"}}
+                        style={{ color: currentItemState === "CLI Apps" ? "dodgerblue" : "black" }}
                         onClick={handleClick}>CLI Apps</a> </li>
                     <span >]</span>
                 </ul>

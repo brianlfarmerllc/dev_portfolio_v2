@@ -1,80 +1,118 @@
 [
   {
-    "image": "weather",
-    "imageAlt": "background for weather app",
-    "site": "https://brianlfarmerllc.github.io/Weather-Dashboard/",
-    "name": "Weather Dashoard",
-    "icon": "https://img.icons8.com/ios/50/000000/cloud.png",
-    "iconAlt": "cloud icon",
-    "type": "Browser Based App",
-    "github": "https://github.com/brianlfarmerllc/Weather-Dashboard"
+    "uesd": [
+      {
+        "image": "weather",
+        "imageAlt": "background for weather app",
+        "site": "https://brianlfarmerllc.github.io/Weather-Dashboard/",
+        "name": "Weather Dashoard",
+        "icon": "https://img.icons8.com/ios/50/000000/cloud.png",
+        "iconAlt": "cloud icon",
+        "type": "Browser Based App",
+        "github": "https://github.com/brianlfarmerllc/Weather-Dashboard"
+      },
+      {
+        "image": "theoffice",
+        "imageAlt": "background for the office",
+        "site": "https://brianlfarmerllc.github.io/Code-Quiz/",
+        "name": "The Office Quiz Game",
+        "icon": "https://img.icons8.com/material-outlined/48/000000/ask-question.png",
+        "iconAlt": "question icon",
+        "type": "Browser Based App",
+        "github": "https://github.com/brianlfarmerllc/Code-Quiz"
+      },
+      {
+        "image": "dayplanner",
+        "imageAlt": "background for day planner",
+        "site": "https://brianlfarmerllc.github.io/Day-Planner/",
+        "name": "Day Planner Application",
+        "icon": "https://img.icons8.com/material-outlined/48/000000/spiral-bound-booklet.png",
+        "iconAlt": "book icon",
+        "type": "Browser Based App",
+        "github": "https://github.com/brianlfarmerllc/Day-Planner"
+      },
+      {
+        "image": "password",
+        "imageAlt": "background for Password Generator",
+        "site": "https://brianlfarmerllc.github.io/Password-Generator/",
+        "name": "Password Generator",
+        "icon": "https://img.icons8.com/ios/50/000000/safe.png",
+        "iconAlt": "safe icon",
+        "type": "Browser Based App",
+        "github": "https://github.com/brianlfarmerllc/Password-Generator"
+      },
+      {
+        "image": "burger",
+        "imageAlt": "background for eat-da-burger",
+        "site": "https://eat-da-burger-brianlfarmerllc.herokuapp.com/",
+        "name": "Eat-Da-Burger Application",
+        "icon": "https://img.icons8.com/material-outlined/48/000000/hamburger.png",
+        "iconAlt": "burger icon",
+        "type": "Browser Based App",
+        "github": "https://github.com/brianlfarmerllc/Handelbars_Eat_Da_Burger"
+      },
+      {
+        "image": "employee_management",
+        "imageAlt": "background for employee_management",
+        "name": "Employee CMS Application",
+        "icon": "https://img.icons8.com/wired/64/000000/manager.png",
+        "iconAlt": "manager icon",
+        "type": "CLI Based App",
+        "github": "https://github.com/brianlfarmerllc/Employee_Management_System"
+      },
+      {
+        "image": "readme",
+        "imageAlt": "background for good read me Generator",
+        "name": "Read Me Generator",
+        "icon": "https://img.icons8.com/pastel-glyph/64/000000/file.png",
+        "iconAlt": "file icon",
+        "type": "CLI Based App",
+        "github": "https://github.com/brianlfarmerllc/Good_README_Generator"
+      },
+      {
+        "image": "workout",
+        "imageAlt": "background for fitness tracker",
+        "site": "https://fit-tracker-brianlfarmerllc.herokuapp.com/stats",
+        "name": "Workout Tracker",
+        "icon": "https://img.icons8.com/ios-glyphs/60/000000/treadmill.png",
+        "iconAlt": "workout icon",
+        "type": "Full Stack App",
+        "github": "https://github.com/brianlfarmerllc/Fitness_Tracker"
+      },
+      {
+        "image": "bioPage",
+        "imageAlt": "background for bio page",
+        "site": "https://brianlfarmerllc.github.io/No_Express_React_Portfolio/",
+        "name": "Personal Portfolio",
+        "icon": "https://img.icons8.com/ios-filled/50/000000/portfolio.png",
+        "iconAlt": "portfolio icon",
+        "type": "React Built App",
+        "github": "https://github.com/brianlfarmerllc/No_Express_React_Portfolio"
+      },
+      {
+        "image": "Rolodex",
+        "imageAlt": "background for employee directory",
+        "site": "https://brianlfarmerllc.github.io/Employee_Directory/",
+        "name": "Employee Directory",
+        "icon": "https://img.icons8.com/metro/52/000000/active-directory.png",
+        "iconAlt": "directory icon",
+        "type": "React Built App",
+        "github": "https://github.com/brianlfarmerllc/Employee_Directory"
+      }
+    ]
   },
   {
-    "image": "theoffice",
-    "imageAlt": "background for the office",
-    "site": "https://brianlfarmerllc.github.io/Code-Quiz/",
-    "name": "The Office Quiz Game",
-    "icon": "https://img.icons8.com/material-outlined/48/000000/ask-question.png",
-    "iconAlt": "question icon",
-    "type": "Browser Based App",
-    "github": "https://github.com/brianlfarmerllc/Code-Quiz"
-  },
-  {
-    "image": "dayplanner",
-    "imageAlt": "background for day planner",
-    "site": "https://brianlfarmerllc.github.io/Day-Planner/",
-    "name": "Day Planner Application",
-    "icon": "https://img.icons8.com/material-outlined/48/000000/spiral-bound-booklet.png",
-    "iconAlt": "book icon",
-    "type": "Browser Based App",
-    "github": "https://github.com/brianlfarmerllc/Day-Planner"
-  },
-  {
-    "image": "password",
-    "imageAlt": "background for Password Generator",
-    "site": "https://brianlfarmerllc.github.io/Password-Generator/",
-    "name": "Password Generator",
-    "icon": "https://img.icons8.com/ios/50/000000/safe.png",
-    "iconAlt": "safe icon",
-    "type": "Browser Based App",
-    "github": "https://github.com/brianlfarmerllc/Password-Generator"
-  },
-  {
-    "image": "burger",
-    "imageAlt": "background for eat-da-burger",
-    "site": "https://eat-da-burger-brianlfarmerllc.herokuapp.com/",
-    "name": "Eat-Da-Burger Application",
-    "icon": "https://img.icons8.com/material-outlined/48/000000/hamburger.png",
-    "iconAlt": "burger icon",
-    "type": "Browser Based App",
-    "github": "https://github.com/brianlfarmerllc/Handelbars_Eat_Da_Burger"
-  },
-  {
-    "image": "notebook",
-    "imageAlt": "background for notetaker",
-    "site": "https://note-taker-brianlfarmerllc.herokuapp.com/",
-    "name": "Note Taker Application",
-    "icon": "https://img.icons8.com/wired/64/000000/pencil.png",
-    "iconAlt": "pencil icon",
-    "type": "Browser Based App",
-    "github": "https://github.com/brianlfarmerllc/Note_Taker"
-  },
-  {
-    "image": "employee_management",
-    "imageAlt": "background for employee_management",
-    "name": "Employee CMS Application",
-    "icon": "https://img.icons8.com/wired/64/000000/manager.png",
-    "iconAlt": "manager icon",
-    "type": "CLI Based App",
-    "github": "https://github.com/brianlfarmerllc/Employee_Management_System"
-  },
-  {
-    "image": "readme",
-    "imageAlt": "background for good read me Generator",
-    "name": "Read Me Generator",
-    "icon": "https://img.icons8.com/pastel-glyph/64/000000/file.png",
-    "iconAlt": "file icon",
-    "type": "CLI Based App",
-    "github": "https://github.com/brianlfarmerllc/Good_README_Generator"
+    "unused": [
+      {
+        "image": "notebook",
+        "imageAlt": "background for notetaker",
+        "site": "https://note-taker-brianlfarmerllc.herokuapp.com/",
+        "name": "Note Taker Application",
+        "icon": "https://img.icons8.com/wired/64/000000/pencil.png",
+        "iconAlt": "pencil icon",
+        "type": "Browser Based App",
+        "github": "https://github.com/brianlfarmerllc/Note_Taker"
+      }
+    ]
   }
 ]
