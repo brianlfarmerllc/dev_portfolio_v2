@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useState} from "react"
-import portfolio from "../../db/portfolio.json"
 import portfoliocopy from "../../db/portfolio copy.json"
 import "./Portfolio.css"
 import PortfolioTiles from "../PortfolioTiles/PortfolioTiles"
 import dev from "../../assets/icons/developer.png"
 
 function Portfolio() {
-    const [portfolioState, setPortfolioState] = useState(portfolio);
+    const [portfolioState, setPortfolioState] = useState(portfoliocopy[0].fullStack);
+    const [currentItemState, setCurrentItemState] = useState("Full Stack");
 
     const handleClick = event => {
         event.preventDefault()
@@ -15,12 +15,15 @@ function Portfolio() {
         switch (name) {
             case "Full Stack":
                 setPortfolioState(portfoliocopy[0].fullStack)
+                setCurrentItemState("Full Stack")
                 break;
             case "Browser Apps":
                 setPortfolioState(portfoliocopy[1].browserApps)
+                setCurrentItemState("Browser Apps")
                 break;
             case "CLI Apps":
                 setPortfolioState(portfoliocopy[2].cliApps)
+                setCurrentItemState("CLI Apps")
                 break;
 
             default:
@@ -48,16 +51,19 @@ function Portfolio() {
                         className="list-item"
                         href="#"
                         name="Full Stack"
+                        style={{color: currentItemState === "Full Stack" ? "dodgerblue" : "black"}}
                         onClick={handleClick}>Full Stack</a> </li>
                     <li> <a
                         className="list-item"
                         href="#"
                         name="Browser Apps"
+                        style={{color: currentItemState === "Browser Apps" ? "dodgerblue" : "black"}}
                         onClick={handleClick}>Browser Apps</a> </li>
                     <li> <a
                         className="list-item"
                         href="#"
                         name="CLI Apps"
+                        style={{color: currentItemState === "CLI Apps" ? "dodgerblue" : "black"}}
                         onClick={handleClick}>CLI Apps</a> </li>
                     <span >]</span>
                 </ul>
