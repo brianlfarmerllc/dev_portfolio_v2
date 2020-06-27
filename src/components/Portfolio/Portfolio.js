@@ -16,7 +16,7 @@ function Portfolio() {
         switch (name) {
             case "React Apps":
                 setPortfolioState(portfoliocopy[3].reactApps)
-                setCurrentItemState("Full Stack")
+                setCurrentItemState("React Apps")
                 break;
             case "Full Stack":
                 setPortfolioState(portfoliocopy[0].fullStack)
