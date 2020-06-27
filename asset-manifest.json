@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/No_Express_React_Portfolio/static/css/main.446566c1.chunk.css",
-    "main.js": "/No_Express_React_Portfolio/static/js/main.f95672bc.chunk.js",
-    "main.js.map": "/No_Express_React_Portfolio/static/js/main.f95672bc.chunk.js.map",
+    "main.js": "/No_Express_React_Portfolio/static/js/main.36aa4e54.chunk.js",
+    "main.js.map": "/No_Express_React_Portfolio/static/js/main.36aa4e54.chunk.js.map",
     "runtime-main.js": "/No_Express_React_Portfolio/static/js/runtime-main.b63d8624.js",
     "runtime-main.js.map": "/No_Express_React_Portfolio/static/js/runtime-main.b63d8624.js.map",
     "static/js/2.0a41f1d8.chunk.js": "/No_Express_React_Portfolio/static/js/2.0a41f1d8.chunk.js",
     "static/js/2.0a41f1d8.chunk.js.map": "/No_Express_React_Portfolio/static/js/2.0a41f1d8.chunk.js.map",
     "index.html": "/No_Express_React_Portfolio/index.html",
-    "precache-manifest.75bd905e4eb4872ae445f81bbcfe1398.js": "/No_Express_React_Portfolio/precache-manifest.75bd905e4eb4872ae445f81bbcfe1398.js",
+    "precache-manifest.f61abd38a1f19029e90da8d9aad09c84.js": "/No_Express_React_Portfolio/precache-manifest.f61abd38a1f19029e90da8d9aad09c84.js",
     "service-worker.js": "/No_Express_React_Portfolio/service-worker.js",
     "static/css/main.446566c1.chunk.css.map": "/No_Express_React_Portfolio/static/css/main.446566c1.chunk.css.map",
     "static/js/2.0a41f1d8.chunk.js.LICENSE.txt": "/No_Express_React_Portfolio/static/js/2.0a41f1d8.chunk.js.LICENSE.txt",
+    "static/media/Rolodex.jpg": "/No_Express_React_Portfolio/static/media/Rolodex.4ae4f486.jpg",
+    "static/media/bioPage.jpg": "/No_Express_React_Portfolio/static/media/bioPage.28652a0c.jpg",
     "static/media/biophoto1.jpeg": "/No_Express_React_Portfolio/static/media/biophoto1.71c8799b.jpeg",
     "static/media/burger.jpg": "/No_Express_React_Portfolio/static/media/burger.b13a16ff.jpg",
     "static/media/dayplanner.jpg": "/No_Express_React_Portfolio/static/media/dayplanner.d6497026.jpg",
@@ -21,12 +23,13 @@
     "static/media/readme.jpg": "/No_Express_React_Portfolio/static/media/readme.6bc58da4.jpg",
     "static/media/team_profile_generator.jpg": "/No_Express_React_Portfolio/static/media/team_profile_generator.f8d649be.jpg",
     "static/media/theoffice.jpg": "/No_Express_React_Portfolio/static/media/theoffice.dd280457.jpg",
-    "static/media/weather.jpg": "/No_Express_React_Portfolio/static/media/weather.ab10a2f1.jpg"
+    "static/media/weather.jpg": "/No_Express_React_Portfolio/static/media/weather.ab10a2f1.jpg",
+    "static/media/workout.jpg": "/No_Express_React_Portfolio/static/media/workout.1af95f96.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b63d8624.js",
     "static/js/2.0a41f1d8.chunk.js",
     "static/css/main.446566c1.chunk.css",
-    "static/js/main.f95672bc.chunk.js"
+    "static/js/main.36aa4e54.chunk.js"
   ]
 }

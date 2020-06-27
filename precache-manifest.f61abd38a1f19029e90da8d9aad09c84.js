@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fbc2cdb52f958314a880200f2a3dfd75",
+    "revision": "b0cffe507125edd7ba714e35afa2671c",
     "url": "/No_Express_React_Portfolio/index.html"
   },
   {
-    "revision": "36f80adb9340f968ef9f",
+    "revision": "9635a8788e66c597aeaf",
     "url": "/No_Express_React_Portfolio/static/css/main.446566c1.chunk.css"
   },
   {
@@ -16,12 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/No_Express_React_Portfolio/static/js/2.0a41f1d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "36f80adb9340f968ef9f",
-    "url": "/No_Express_React_Portfolio/static/js/main.f95672bc.chunk.js"
+    "revision": "9635a8788e66c597aeaf",
+    "url": "/No_Express_React_Portfolio/static/js/main.36aa4e54.chunk.js"
   },
   {
     "revision": "5690bf56df131d422bfe",
     "url": "/No_Express_React_Portfolio/static/js/runtime-main.b63d8624.js"
+  },
+  {
+    "revision": "4ae4f4864d70659182fd1fdc39ec1857",
+    "url": "/No_Express_React_Portfolio/static/media/Rolodex.4ae4f486.jpg"
+  },
+  {
+    "revision": "28652a0ca942ac755165903948977cb9",
+    "url": "/No_Express_React_Portfolio/static/media/bioPage.28652a0c.jpg"
   },
   {
     "revision": "71c8799b6f2565c2f91bac01cd58994a",
@@ -62,5 +70,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab10a2f14c7222d45f78c3e32db7d9ef",
     "url": "/No_Express_React_Portfolio/static/media/weather.ab10a2f1.jpg"
+  },
+  {
+    "revision": "1af95f96278d5d5d2f1122cad5784e43",
+    "url": "/No_Express_React_Portfolio/static/media/workout.1af95f96.jpg"
   }
 ]);
