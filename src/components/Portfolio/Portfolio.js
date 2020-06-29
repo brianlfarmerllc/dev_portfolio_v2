@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react"
 import portfoliocopy from "../../db/portfolio copy.json"
-import portfolio from "../../db/portfolio.json"
+// import portfolio from "../../db/portfolio.json"
 import "./Portfolio.css"
 import PortfolioTiles from "../PortfolioTiles/PortfolioTiles"
 import dev from "../../assets/icons/developer.png"

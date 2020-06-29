@@ -92,6 +92,16 @@
   {
     "reactApps": [
       {
+        "image": "google_books",
+        "imageAlt": "background for Google Books Search",
+        "site": "https://gbooks-search-brianlfarmerllc.herokuapp.com/",
+        "name": "Google Books Search",
+        "icon": "https://img.icons8.com/ios-filled/100/000000/open-book.png",
+        "iconAlt": "Book icon",
+        "type": "React MERN App",
+        "github": "https://github.com/brianlfarmerllc/Google_Books"
+      },
+      {
         "image": "bioPage",
         "imageAlt": "background for bio page",
         "site": "https://brianlfarmerllc.github.io/No_Express_React_Portfolio/",
