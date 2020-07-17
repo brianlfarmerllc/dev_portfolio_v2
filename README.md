@@ -2,8 +2,9 @@
   # No_Express_React_Portfolio
 
   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/brianlfarmerllc/No_Express_React_Portfolio)
+  [![GitHub URL](https://img.shields.io/badge/Netlify-URL-pink.svg)](https://brianlfarmerllc-biosite.netlify.app/)
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/d5ae00f7-be90-401b-ae52-1564e2d874ef/deploy-status)](https://app.netlify.com/sites/brianlfarmerllc-biosite/deploys)
 
-  [![GitHub URL](https://img.shields.io/badge/GitPages-URL-dodgerblue.svg)](https://brianlfarmerllc.github.io/No_Express_React_Portfolio/)
   
   ## Description
 
