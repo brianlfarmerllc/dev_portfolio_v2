@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -16,16 +15,25 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Libre+Baskerville&family=Source+Sans+Pro&display=swap"
     rel="stylesheet">
-    <!-- link for font awesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- images now available from public folder -->
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <!-- link for font awesome -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- images now available from public folder -->
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <title>Brian's Bio</title>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+  <!-- hidden contact form for netlify form setup -->
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="firstName" />
+    <input type="text" name="lastName" />
+    <input type="email" name="email" />
+    <input type="text" name="phone" />
+    <input type="text" name="message" />
+    <textarea name="message"></textarea>
+  </form>
 
 </body>
 
