@@ -24,7 +24,7 @@
       {
         "image": "workout",
         "imageAlt": "background for fitness tracker",
-        "site": "https://fit-tracker-brianlfarmerllc.herokuapp.com/stats",
+        "site": "https://fit-tracker-brianlfarmerllc.herokuapp.com",
         "name": "Workout Tracker",
         "icon": "https://img.icons8.com/ios-glyphs/60/000000/treadmill.png",
         "iconAlt": "workout icon",
