@@ -144,6 +144,6 @@ This was a challenging project for me at the time with my current skill set usin
 
 ## Author
 
-- Website - [Brian Farmer](https://brianlfarmerllc-biosite.netlify.app/)
+- Website - [Portfolio Site](https://brianfarmerwebdev.netlify.app)
 - GitHub URL: - [GitHub URL](https://github.com/brianlfarmerllc/fem_launch_timer)
 - Frontend Mentor - [@brianlfarmerllc](https://www.frontendmentor.io/profile/brianlfarmerllc)
